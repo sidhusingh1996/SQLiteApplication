@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/view_data_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="RESULTS"
+        android:textColor="#111"
+        android:textFontWeight="400"
+        android:textSize="24sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/view_data_heading2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Name                  DOB                  Contact"
+        android:textColor="#980F0F"
+        android:textFontWeight="200"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/student_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view_data_heading">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>
